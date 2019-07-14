@@ -1,0 +1,200 @@
+/*-------- Global --------*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+html {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 100;
+}
+body {
+    width: 80%;
+    margin: auto;
+    background-image: url(images/memphis-mini.png);
+    background-position:top;
+    
+}
+.blue{
+    color: #027bff;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    color: #17191A
+}
+h2 {
+    font-size: 25px;
+    font-weight: 100;
+    color: #17191A
+}
+h5 {
+    font-size: 20px;
+    margin-top: 10px;  
+    color: #17191A
+}
+p {
+    color: rgb(128, 135, 138);
+    
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 15px;
+    max-width: 100%;
+    line-height: 1.25;
+}
+
+/*-------- Nav --------*/
+.nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-bottom: 15px;
+}
+.contactMe,.navIcons {
+    flex: 1;
+}
+.navIcons {
+    text-align: right;
+}
+.navIcons a, .contactMe a, .contactMe img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navIcons a {
+    margin-left: 40px;
+}
+.contactMe a, .navIcons a{
+    color: #027bff;
+    text-decoration:none;
+}
+.contactMe img{
+    margin-right: 10px;
+}
+
+/*-------- Landing --------*/
+
+.landing {
+    height: auto;
+    padding-bottom: 100px;
+}
+.landingWrapper{
+    text-align: center;
+}
+.landingWrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.landingWrapper p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.scroll {
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*-------- Skills --------*/
+.skills {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.skills p {
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 100%;
+
+}
+.skills img {
+    width: 60px;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+
+/*-------- Project 01 --------*/
+.work {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+.work > .workText {
+    position: absolute;
+    top: 85px;
+}
+.work > .workText > .underline {
+    display: block;
+    background-color: #027bff;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+.work > .workImg {
+    width: 85%;
+    float: right;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work ul {
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+.work ul li {
+    margin-top: 20px;
+}
+/*-------- Work 02 --------*/
+
+
+
+
+/*-------- Work 01 and 02 --------*/
+.work a, .work2 a {
+    text-decoration: none;
+    color: #17191A;
+}
+
+
+
+/*-------- Responsive --------*/
+
+@media only screen and (max-width: 900px) {
+    .landing a img {
+        width: "200px"
+    }
+    .work2 a img {
+        margin: 2%;
+        width: 96%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
