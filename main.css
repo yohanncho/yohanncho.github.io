@@ -271,7 +271,7 @@ ul {
 
 }
 /*-------- Work 01 and 02 --------*/
-.work a, .work2 a {
+.work a, .work2 a, .work3 a, .work4 a{
     text-decoration: none;
     color: #17191A;
 }
