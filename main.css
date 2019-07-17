@@ -139,7 +139,11 @@ ul {
 .work {
     width: 100%;
     position: relative;
-    margin-bottom: 20em;
+    margin-bottom: 100px;
+}
+.work img {
+    max-width:100%;
+    height:auto;
 }
 .work > .workText {
     position: absolute;
@@ -153,7 +157,7 @@ ul {
     margin-top: 5px;
 }
 .work > .workImg {
-    width: 85%;
+    width: 70%;
     float: right;
     -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
     -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
@@ -171,7 +175,11 @@ ul {
 .work2 {
     width: 100%;
     position: relative;
-    margin-bottom: 20em;
+    margin-bottom: 100px;
+}
+.work2 img {
+    max-width:100%;
+    height:auto;
 }
 .work2 > .workText {
     position: absolute;
@@ -188,7 +196,7 @@ ul {
     float: right;
 }
 .work2 > .workImg {
-    width: 85%;
+    width: 70%;
     float: left;
     -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
     -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
@@ -202,11 +210,11 @@ ul {
 .work2 ul li {
     margin-top: 20px;
 }
-/*-------- Project 03 --------*/
+/*-------- Work 03 --------*/
 .work3 {
     width: 100%;
     position: relative;
-    margin-bottom: 20em;
+    margin-bottom: 100px;
 }
 .work3 > .workText {
     position: absolute;
@@ -220,7 +228,7 @@ ul {
     margin-top: 5px;
 }
 .work3 > .workImg {
-    width: 85%;
+    width: 70%;
     float: right;
     -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
     -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
@@ -238,7 +246,7 @@ ul {
 .work4 {
     width: 100%;
     position: relative;
-    margin-bottom: 20em;
+    margin-bottom: 100px;
 }
 .work4 > .workText {
     position: absolute;
@@ -255,7 +263,7 @@ ul {
     float: right;
 }
 .work4 > .workImg {
-    width: 85%;
+    width: 70%;
     float: left;
     -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
     -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
@@ -275,9 +283,6 @@ ul {
     text-decoration: none;
     color: #17191A;
 }
-
-
-
 /*-------- Responsive --------*/
 
 
