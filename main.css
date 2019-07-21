@@ -29,7 +29,7 @@ body {
     color: #027bff;
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 100;
     color: #17191A
 }
@@ -40,7 +40,7 @@ h2 {
 }
 h3 {
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 100;
     color: #17191A
 }
 h5 {
@@ -144,6 +144,7 @@ ul {
 .work img {
     max-width:100%;
     height:auto;
+    border-radius: 25px;
 }
 .work > .workText {
     position: absolute;
@@ -153,7 +154,7 @@ ul {
     display: block;
     background-color: #027bff;
     height: 3px;
-    width: 61px;
+    width: 128px;
     margin-top: 5px;
 }
 .work > .workImg {
@@ -180,6 +181,7 @@ ul {
 .work2 img {
     max-width:100%;
     height:auto;
+    border-radius: 25px;
 }
 .work2 > .workText {
     position: absolute;
@@ -191,7 +193,7 @@ ul {
     display: block;
     background-color: #027bff;
     height: 3px;
-    width: 61px;
+    width: 124px;
     margin-top: 5px;
     float: right;
 }

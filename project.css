@@ -19,7 +19,7 @@ html {
     font-weight: 100;
 }
 body {
-    width: 80%;
+    width: 60%;
     margin: auto;
     background-image: url(images/memphis-mini.png);
     background-position:top;
@@ -127,12 +127,12 @@ ul {
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
+    padding-bottom: 100px;
   }
   
   /* Hide the images by default */
   .mySlides {
         display: none;
-
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -181,8 +181,9 @@ ul {
   /* Container for image text */
   .caption-container {
     text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
+    background-color: #17191A;
+    padding-top: 1px;
+    padding-bottom: 10px;
     color: white;
   }
 
