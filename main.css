@@ -218,6 +218,11 @@ ul {
     position: relative;
     margin-bottom: 100px;
 }
+.work3 img {
+    max-width:100%;
+    height:auto;
+    border-radius: 25px;
+}
 .work3 > .workText {
     position: absolute;
     top: 85px;
@@ -226,7 +231,7 @@ ul {
     display: block;
     background-color: #027bff;
     height: 3px;
-    width: 61px;
+    width: 124px;
     margin-top: 5px;
 }
 .work3 > .workImg {
@@ -250,6 +255,11 @@ ul {
     position: relative;
     margin-bottom: 100px;
 }
+.work4 img {
+    max-width:100%;
+    height:auto;
+    border-radius: 25px;
+}
 .work4 > .workText {
     position: absolute;
     top: 85px;
@@ -260,7 +270,7 @@ ul {
     display: block;
     background-color: #027bff;
     height: 3px;
-    width: 61px;
+    width: 124px;
     margin-top: 5px;
     float: right;
 }
@@ -280,8 +290,86 @@ ul {
     margin-top: 20px;
 
 }
+/*-------- Work 05 --------*/
+.work5 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+.work5 img {
+    max-width:100%;
+    height:auto;
+    border-radius: 25px;
+}
+.work5 > .workText {
+    position: absolute;
+    top: 85px;
+}
+.work5 > .workText > .underline {
+    display: block;
+    background-color: #027bff;
+    height: 3px;
+    width: 124px;
+    margin-top: 5px;
+}
+.work5 > .workImg {
+    width: 70%;
+    float: right;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work5 ul {
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+.work5 ul li {
+    margin-top: 20px;
+}
+/*-------- Work 06 --------*/
+.work6 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+.work6 img {
+    max-width:100%;
+    height:auto;
+    border-radius: 25px;
+}
+.work6 > .workText {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    text-align: right;
+}
+.work6 > .workText > .underline {
+    display: block;
+    background-color: #027bff;
+    height: 3px;
+    width: 124px;
+    margin-top: 5px;
+    float: right;
+}
+.work6 > .workImg {
+    width: 70%;
+    float: left;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work6 ul {
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+}
+.work6 ul li {
+    margin-top: 20px;
+
+}
 /*-------- Work 01 and 02 --------*/
-.work a, .work2 a, .work3 a, .work4 a{
+.work a, .work2 a, .work3 a, .work4 a, .work5 a, .work6 a{
     text-decoration: none;
     color: #17191A;
 }
