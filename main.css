@@ -21,42 +21,56 @@ html {
 body {
     width: 80%;
     margin: auto;
-    background-image: url(images/memphis-mini.png);
+    background-image: url(images/darkgrey.png);
     background-position:top;
     
 }
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .blue{
-    color: #027bff;
+    color: #fcc033;
 }
 h1 {
     font-size: 45px;
     font-weight: 100;
-    color: #17191A
+    color: #ffffff
 }
 h2 {
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 100;
-    color: #17191A
+    color: #fcc033
 }
 h3 {
     font-size: 40px;
     font-weight: 100;
-    color: #17191A
+    color: #ffffff
 }
 h5 {
     font-size: 20px;
     margin-top: 10px;  
-    color: #17191A
+    color: #fcc033
 }
 p {
-    color: rgb(128, 135, 138);
-    
     font-weight: 100;
     margin-top: 10px;
     font-size: 15px;
     max-width: 100%;
     line-height: 1.25;
+    color: #ffffff
 }
+hr.new1 {
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 2px;
+  }
 
 /*-------- Nav --------*/
 .nav {
@@ -79,7 +93,7 @@ p {
     margin-left: 40px;
 }
 .contactMe a, .navIcons a{
-    color: #027bff;
+    color: #fcc033;
     text-decoration:none;
 }
 .contactMe img{
@@ -90,10 +104,10 @@ p {
 
 .landing {
     height: auto;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 .landingWrapper{
-    text-align: center;
+    text-align: left;
 }
 .landingWrapper img{
     display: block;
@@ -122,6 +136,7 @@ ul {
 .skills {
     text-align: center;
     margin-bottom: 150px;
+    margin-top: 70px;
 }
 .skills p {
     margin-bottom: 30px;
@@ -134,12 +149,18 @@ ul {
     vertical-align: middle;
     margin: 0 15px;
 }
-
+.workheader {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
 /*-------- Project 01 --------*/
 .work {
     width: 100%;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .work img {
     max-width:100%;
@@ -152,7 +173,7 @@ ul {
 }
 .work > .workText > .underline {
     display: block;
-    background-color: #027bff;
+    background-color: #fcc033;
     height: 3px;
     width: 128px;
     margin-top: 5px;
@@ -191,7 +212,7 @@ ul {
 }
 .work2 > .workText > .underline {
     display: block;
-    background-color: #027bff;
+    background-color: #fcc033;
     height: 3px;
     width: 124px;
     margin-top: 5px;
@@ -229,7 +250,7 @@ ul {
 }
 .work3 > .workText > .underline {
     display: block;
-    background-color: #027bff;
+    background-color: #fcc033;
     height: 3px;
     width: 124px;
     margin-top: 5px;
@@ -268,7 +289,7 @@ ul {
 }
 .work4 > .workText > .underline {
     display: block;
-    background-color: #027bff;
+    background-color: #fcc033;
     height: 3px;
     width: 124px;
     margin-top: 5px;
@@ -307,7 +328,7 @@ ul {
 }
 .work5 > .workText > .underline {
     display: block;
-    background-color: #027bff;
+    background-color: #fcc033;
     height: 3px;
     width: 124px;
     margin-top: 5px;
@@ -346,7 +367,7 @@ ul {
 }
 .work6 > .workText > .underline {
     display: block;
-    background-color: #027bff;
+    background-color: #fcc033;
     height: 3px;
     width: 124px;
     margin-top: 5px;

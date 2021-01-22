@@ -21,30 +21,30 @@ html {
 body {
     width: 60%;
     margin: auto;
-    background-image: url(images/memphis-mini.png);
+    background-image: url(images/darkgrey.png);
     background-position:top;
     
 }
 .blue{
-    color: #027bff;
+    color: #ffc033;
 }
 h1 {
     font-size: 40px;
     font-weight: 100;
-    color: #17191A
+    color: #ffc033
 }
 h2 {
     font-size: 25px;
     font-weight: 100;
-    color: #17191A
+    color: #ffffff
 }
 h5 {
     font-size: 20px;
     margin-top: 10px;  
-    color: #17191A
+    color: #ffffff
 }
 p {
-    color: rgb(128, 135, 138);
+    color: rgb(255, 255, 255);
     
     font-weight: 100;
     margin-top: 10px;
@@ -74,7 +74,7 @@ p {
     margin-left: 40px;
 }
 .contactMe a, .navIcons a{
-    color: #027bff;
+    color: #ffc033;
     text-decoration:none;
 }
 .contactMe img{
@@ -83,7 +83,7 @@ p {
 /*-------- Home --------*/
 .home a{
     text-decoration: none;
-    color: rgb(128, 135, 138);
+    color: rgb(255, 255, 255);
     padding-bottom: 30px;
     font-size: 50px;
 }
@@ -149,7 +149,7 @@ ul {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: #17191A;
+    color:#ffffff;
     font-weight: bold;
     font-size: 50px;
     border-radius: 0 3px 3px 0;
@@ -171,7 +171,7 @@ ul {
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #17191A;
+    color: #ffffff;
     font-size: 40px;
     padding: 8px 12px;
     position: absolute;
@@ -181,10 +181,10 @@ ul {
   /* Container for image text */
   .caption-container {
     text-align: center;
-    background-color: #17191A;
+    background-color: #000000;
     padding-top: 1px;
     padding-bottom: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .row:after {
