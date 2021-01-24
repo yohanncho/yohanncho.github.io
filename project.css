@@ -33,7 +33,7 @@ a:link {
     color: #ffc033;
 }
 h1 {
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: 100;
     color: #ffc033
 }
@@ -52,7 +52,7 @@ p {
     
     font-weight: 100;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 1vw;
     max-width: 100%;
     line-height: 1.25;
 }
@@ -60,7 +60,7 @@ ul.a {
     list-style-type: square;
     font-weight: 100;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 1vw;
     max-width: 100%;
     line-height: 1.25;
     color: #ffffff
