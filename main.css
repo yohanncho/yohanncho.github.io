@@ -396,7 +396,20 @@ ul {
 }
 /*-------- Responsive --------*/
 
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 
+
+@media only screen and (max-width: 990px) {
+    
+    .column a img {
+        margin: 2%;
+        width: 96%;
+    }
+    .skills {
+        margin: 2%;
+        width: 100%;
+    }
+} 
 
 
 
